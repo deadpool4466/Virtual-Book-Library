@@ -1,0 +1,53 @@
+.book-details-container{
+    background-color: antiquewhite;
+    height: 100vh;
+    
+}
+.book-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.title{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: black;  
+}
+.description{
+    font-size: 30px;
+    text-align: center;
+}
+.bookinfo-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 13px;
+    margin: 10px;
+}
+strong{
+    text-decoration: underline;
+}
+.back-btn{
+  background-image: linear-gradient(to right,antiquewhite, #fff ,antiquewhite);
+  color: #060606;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin: 15px;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color: #060606;
+}
+.link-names{
+    color: black;
+    text-decoration: none;
+}

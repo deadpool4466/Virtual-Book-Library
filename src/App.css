@@ -1,38 +1,73 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-container{
+  text-align: center;
+}
+.main-heading{
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+}
+input{
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.BookList-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+ul { 
+  list-style-type: none; 
+}
+.favorite-btn{
+  background-image: linear-gradient(to right,antiquewhite, #fff ,antiquewhite);
+  color: #060606;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin: 15px;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.favicon{
+  width: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen 
+and (max-device-width: 600px)
+ { 
+  .App {
+    text-align: left;
   }
-  to {
-    transform: rotate(360deg);
+  .main-container{
+    text-align: left;
   }
-}
+  .main-heading{
+    margin: 10px;
+  }
+  .main-container{
+    text-align: left;
+  }
+  
+  
+  input{
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  margin-left: 20px;
+} }
